@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+namespace: etcd-backup
+metadata:
+  name: etcd-backup
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20Gi
