@@ -1,0 +1,7 @@
+resources:
+  - namespace.yaml
+  - clusterrolebinding.yaml
+  - configmap.yaml
+  - cronjob.yaml
+  - pvc.yaml
+  - serviceaccount.yaml
