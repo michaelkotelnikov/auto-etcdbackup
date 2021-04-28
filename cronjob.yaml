@@ -1,6 +1,5 @@
 apiVersion: batch/v1beta1
 kind: CronJob
-namespace: etcd-backup
 metadata:
   name: cronjob-etcd-backup
   labels:
