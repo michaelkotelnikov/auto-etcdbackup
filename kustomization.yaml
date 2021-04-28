@@ -1,3 +1,4 @@
+namespace: etcd-backup
 resources:
   - namespace.yaml
   - clusterrolebinding.yaml
